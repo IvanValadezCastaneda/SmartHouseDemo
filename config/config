@@ -1,0 +1,9 @@
+[general]
+pvss_path = "C:/Siemens/Automation/WinCC_OA/3.18"
+proj_path = "C:/WinCC_OA_Proj/SmartHouseDemo"
+proj_version = "3.18"
+langs = "en_US.utf8"
+useNGA = 1
+[ui]
+defaultFont = "Noto Sans"
+defaultPanelFormat = "XML"

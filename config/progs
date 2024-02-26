@@ -1,0 +1,12 @@
+version 1
+
+auth "Ivan" "#PBKDF2#GJGVX3rkBrJgBiAhYAqNZg==#2930#FZrIK2XqfALm24A+Dt+dRr8Gn4k="
+#Manager         | Start  | SecKill | Restart# | ResetMin | Options
+WCCILpmon        | manual |      30 |        3 |        1 |
+WCCILdata        | always |      30 |        3 |        1 |
+WCCOAnextgenarch | always |      30 |        2 |        2 |
+WCCILevent       | always |      30 |        3 |        1 |
+WCCILproxy       | always |      30 |        2 |        2 |
+WCCOActrl        | always |      30 |        3 |        1 |-f pvss_scripts.lst
+WCCILsim         | always |      30 |        3 |        1 |
+WCCOAui          | manual |      30 |        3 |        1 |-m gedi -user root:4GEhbRbBR!F33ihF

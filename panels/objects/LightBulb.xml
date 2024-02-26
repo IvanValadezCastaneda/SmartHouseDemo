@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel version="14">
+ <properties>
+  <prop name="Name">
+   <prop name="en_US.utf8"></prop>
+  </prop>
+  <prop name="Size">400 400</prop>
+  <prop name="BackColor">_3DFace</prop>
+  <prop name="RefPoint">-1 -1</prop>
+  <prop name="InitAndTermRef">True</prop>
+  <prop name="SendClick">False</prop>
+  <prop name="RefFileName"></prop>
+  <prop name="DPI">96</prop>
+  <prop name="PDPI">93.23185778609438</prop>
+  <prop name="layoutType">None</prop>
+ </properties>
+ <events>
+  <script name="ScopeLib" isEscaped="1"><![CDATA[#uses &quot;classes/LightBulb&quot;
+
+string passedDP = $stringPassedDP;
+
+void initialize(){
+  LightBulb myLightBulb;
+}
+]]></script>
+  <script name="Initialize" isEscaped="1"><![CDATA[main()
+{
+  initialize();
+}]]></script>
+ </events>
+</panel>
