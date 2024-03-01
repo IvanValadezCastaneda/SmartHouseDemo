@@ -1,6 +1,6 @@
 version 1
 
-auth "Ivan" "#PBKDF2#ry5DOw5ImF3C/SNsszzhrA==#2553#r71SGXQJt4/iznN657mVFp7x20s="
+auth "Ivan" "#PBKDF2#z6XPptK8wBR1O6mf+prHiA==#2725#ITVlOHAlAma58Y15uhO3snZvVu0="
 #Manager         | Start  | SecKill | Restart# | ResetMin | Options
 WCCILpmon        | manual |      30 |        3 |        1 |
 WCCILdata        | always |      30 |        3 |        1 |

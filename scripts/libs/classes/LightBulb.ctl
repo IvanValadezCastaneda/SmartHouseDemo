@@ -28,7 +28,6 @@ public LightBulb() {
   connectedNetwork = "";
 }
   //------------------------------------------------------------------------------
-
   void setState(bool on) {
     state = on;
   }
